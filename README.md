@@ -324,7 +324,7 @@ ax = sns.countplot(x='venomous', data=data, palette='viridis_r')
 for p in ax.patches:
         ax.annotate('{:.0f}'.format(p.get_height()), (p.get_x()+0.35, p.get_height()+0.8))
 ```
-![](./assets/plt_figure_Venomous.png)
+![](./assets/plt_figure_Venom.png)
 
 Diagram lingkaran Venomous,
 ```  bash
