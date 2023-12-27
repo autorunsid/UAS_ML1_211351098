@@ -448,6 +448,6 @@ sns.heatmap(cm,annot=True)
 
 ## Deployment
 
-[Prediction Animal Class Type App](https://aplikasi-prediksi-penyakit-stroke.streamlit.app/).
+[Prediction Animal Class Type App](https://prediction-animal-class-type-app.streamlit.app/).
 
 ![](./assets/App.png)
