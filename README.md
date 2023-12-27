@@ -324,14 +324,14 @@ ax = sns.countplot(x='venomous', data=data, palette='viridis_r')
 for p in ax.patches:
         ax.annotate('{:.0f}'.format(p.get_height()), (p.get_x()+0.35, p.get_height()+0.8))
 ```
-![](./assets/plt_figure_Venom.png)
+![](./assets/plt_figure_Venomous.png)
 
 Diagram lingkaran Venomous,
 ```  bash
 # Check the proportion within the target variable 'venomous'.
 ex.pie(data,names='venomous',title='Proportion of different venomous',hole=0.33)
 ```
-![](./assets/ex_pie_Venomous.png)
+![](./assets/ex_pie_Venom.png)
 
 ### Preprocessing
 Dalam pembagian data biasa menjadi set Pelatihan dan Uji, ada kemungkinan semua data hewan jenis Amfibi berada di set Pelatihan atau semua berada di set Uji. Ini dapat mengurangi akurasi model kita. Oleh karena itu, kita perlu membagi data secara terpisah berdasarkan jenis hewan.
