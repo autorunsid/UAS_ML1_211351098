@@ -427,7 +427,7 @@ pred_df = pd.DataFrame(data=predd, index=['value'])
 custom_pred = dtc.predict(pred_df)
 print('Class Type :', class_map[custom_pred[0]])
 ```
-Dan ini hasil yang di peroleh dari pengujiannya,
+Dan ini hasil yang di peroleh dari pengujiannya,<br>
 ![](./assets/human.png)
 
 Setelah pengujian model berhasil saya ingin memvisualisasi hasil algoritma yang kita terapkan yaitu  Decision Tree Classifier,
