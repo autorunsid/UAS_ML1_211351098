@@ -399,7 +399,7 @@ Kemudian kita perlu mengetahui berapa score yang didapatkan dari model yang tela
 print(f"Accuracy = {metrics.accuracy_score(y_test, y_pred)}")
 print(metrics.classification_report(y_test, y_pred))
 ```
-![](./assets/Score.png)
+![](./assets/Score.png)<br>
 Ternyata mendapatkan Score Accuracy yang sempurna 100%.
 
 Oke, sekarang kita mulai untuk pengujiannya. Untuk Pengujian disini saya menggunakan fitur pada ciri ciri manusia,
