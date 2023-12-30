@@ -444,6 +444,12 @@ _ = plot_tree(dtc, feature_names=X_train.columns,
 ```
 ![](./assets/plot_tree_Model.png)
 
+Terakhir kita perlu import model kita menggunakan pickle untuk digunakan nantinya pada saat installasi streamlit,
+```  bash
+filename = "animal_model.sav"
+pickle.dump(dtc,open(filename,'wb'))
+```
+
 ## Evaluation
 Matrik evaluasi yang saya gunakan disini adalah confusion matrix, karena sangat cocok untuk kasus pengkategorian seperti kasus ini. Dengan membandingkan nilai aktual dengan nilai prediksi.
 ``` bash
